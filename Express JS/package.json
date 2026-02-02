@@ -1,0 +1,36 @@
+{
+  "name": "express-js-api",
+  "version": "1.0.0",
+  "description": "Express.js API with Swagger documentation",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:seed": "node src/seeders/runSeeder.js",
+    "seed": "node src/seeders/runSeeder.js"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "swagger",
+    "documentation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "mysql2": "^3.6.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

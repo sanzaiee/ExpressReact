@@ -1,0 +1,41 @@
+# Dependencies (both Express JS and ReactJS)
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production build output (both projects)
+build/
+dist/
+
+# Environment and secrets (do not commit)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Express JS: runtime uploads (generated at runtime)
+Express JS/public/data/uploads/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Vite
+.vite/
